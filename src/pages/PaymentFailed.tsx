@@ -1,9 +1,7 @@
 import { X } from "lucide-react";
 import { Button } from "@/components/ui/button";
-
 const PaymentFailed = () => {
-  return (
-    <div className="min-h-screen bg-background flex items-center justify-center p-4">
+  return <div className="min-h-screen flex items-center justify-center p-4 bg-secondary-foreground">
       <div className="w-full max-w-md">
         <div className="bg-card border border-border rounded-2xl p-8 shadow-lg animate-fade-in">
           {/* Error Icon */}
@@ -33,8 +31,6 @@ const PaymentFailed = () => {
           </Button>
         </div>
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default PaymentFailed;
