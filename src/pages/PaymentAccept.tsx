@@ -1,9 +1,7 @@
 import { Check } from "lucide-react";
 import { Button } from "@/components/ui/button";
-
 const PaymentAccept = () => {
-  return (
-    <div className="min-h-screen bg-background flex items-center justify-center p-4">
+  return <div className="min-h-screen flex items-center justify-center p-4 bg-[#0f1729]">
       <div className="w-full max-w-md">
         <div className="bg-card border border-border rounded-2xl p-8 shadow-lg animate-fade-in">
           {/* Success Icon */}
@@ -33,8 +31,6 @@ const PaymentAccept = () => {
           </Button>
         </div>
       </div>
-    </div>
-  );
+    </div>;
 };
-
 export default PaymentAccept;
